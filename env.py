@@ -6,7 +6,7 @@ load_dotenv()
 API_ID = os.getenv("API_ID", "27639102").strip()
 API_HASH = os.getenv("API_HASH", "35142c1407be6264e68fb6bec5dcabd9").strip()
 BOT_TOKEN = os.getenv("BOT_TOKEN", "6191852838:AAG6RpgZO0EV_zrivbUO9j31h3N4_bZRTgg").strip()
-DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Demo123:Demo123@cluster0.07fqvhs.mongodb.net/?retryWrites=true&w=majority").strip()
+DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Forward123:Forward123@cluster0.4d1ljfv.mongodb.net/?retryWrites=true&w=majority")
 MUST_JOIN = os.getenv("MUST_JOIN", "https://t.me/VJ_Bots")
 
 if not API_ID:
